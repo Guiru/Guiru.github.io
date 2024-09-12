@@ -50,6 +50,34 @@ section {
     border: 1px solid #ddd;
 }
 
+/* Estilo del campo de texto y botón */
+.url-section {
+    margin-top: 20px;
+}
+
+#urlInput {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    width: calc(100% - 120px);
+    box-sizing: border-box;
+}
+
+#openUrlButton {
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+}
+
+#openUrlButton:hover {
+    background-color: #555;
+}
+
 /* Estilo del pie de página */
 footer {
     background: #333;
