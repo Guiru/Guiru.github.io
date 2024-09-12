@@ -2,6 +2,8 @@ document.addEventListener('DOMContentLoaded', () => {
     const openUrlButton = document.getElementById('openUrlButton');
     const urlInput = document.getElementById('urlInput');
 
+    const botonBuscarPelicula = document.getElementById('botonObtenerDatos');
+
     openUrlButton.addEventListener('click', () => {
         const url = urlInput.value.trim();
         if (url) {
