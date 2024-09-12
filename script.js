@@ -1,5 +1,3 @@
-document.addEventListener('DOMContentLoaded', () => {
-
     const botonBuscarPelicula = document.getElementById('botonObtenerDatos');
     const pelicula = document.getElementById('pelicula');
 
@@ -9,5 +7,3 @@ document.addEventListener('DOMContentLoaded', () => {
       const url = 'https://omdbapi.com/?t=' + pelicula;
       window.open(url, '_blank');
     }
-
-});
