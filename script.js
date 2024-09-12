@@ -4,6 +4,6 @@
     botonBuscarPelicula.addEventListener('click', buscaDatos);
 
     function buscaDatos(){
-      const url = 'https://omdbapi.com/?t=' + pelicula;
+      const url = concat("https://omdbapi.com/?t=",pelicula,"?apikey=b62fe9a9");
       window.open(url, '_blank');
     }
