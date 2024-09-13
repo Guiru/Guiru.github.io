@@ -4,7 +4,7 @@
     botonBuscarPelicula.addEventListener('click', buscaDatos);
 
     function buscaDatos(){
-        const url = 'https://omdbapi.com/?t=' + pelicula + '&apikey=b62fe9a9';
+        string url = 'https://omdbapi.com/?t=' + pelicula + '&apikey=b62fe9a9';
         
         const respuesta = JSON.parse(url);
         console.log("Hola buenos días");
