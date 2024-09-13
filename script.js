@@ -5,5 +5,6 @@
 
     function buscaDatos(){
       const url = 'https://omdbapi.com/?t=' + pelicula + '&apikey=b62fe9a9';
+      console.log("Hola buenos días");
       window.open(url, '_blank');
     }
