@@ -1,5 +1,5 @@
     const botonBuscarPelicula = document.getElementById('botonObtenerDatos');
-    const pelicula = document.getElementById('pelicula');
+    const pelicula = document.getElementById('pelicula').value;
    
     botonBuscarPelicula.addEventListener('click', buscaDatos);
 
